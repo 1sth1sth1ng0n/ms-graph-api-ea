@@ -1,0 +1,11 @@
+certifi==2023.5.7
+cffi==1.15.1
+charset-normalizer==3.2.0
+cryptography==41.0.2
+idna==3.4
+msal==1.22.0
+pycparser==2.21
+PyJWT==2.7.0
+requests==2.31.0
+#urllib3==2.0.3 # https://stackoverflow.com/questions/76414514/cannot-import-name-default-ciphers-from-urllib3-util-ssl-on-aws-lambda-us
+urllib3<2

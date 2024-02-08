@@ -1,0 +1,19 @@
+service: jamf-ea-azure-group-members
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+
+functions:
+  main:
+    handler: handler.validate
+    description: > 
+      generates queries to the ms graph api in azure ad to obtain user group membership details.
+      we currently have no cloud ldaps service and jamf pro on-prem requires ldaps for scoping to
+      azure ad groups. cloud service providors are not available for on-prem.
+    events:
+      - http: POST /email/validate
+
+plugins:
+  - serverless-python-requirements

@@ -1,0 +1,77 @@
+{
+	"id": "c59b7c81-3d6d-42f4-9489-e3ba0f43eba7",
+	"acceptMappedClaims": null,
+	"accessTokenAcceptedVersion": null,
+	"addIns": [],
+	"allowPublicClient": null,
+	"appId": "85b4ee55-a1d0-4785-a473-5a38d15291bc",
+	"appRoles": [],
+	"oauth2AllowUrlPathMatching": false,
+	"createdDateTime": "2023-07-10T15:45:23Z",
+	"description": null,
+	"certification": null,
+	"disabledByMicrosoftStatus": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [],
+	"informationalUrls": {
+		"termsOfService": null,
+		"support": null,
+		"privacy": null,
+		"marketing": null
+	},
+	"keyCredentials": [],
+	"knownClientApplications": [],
+	"logoUrl": null,
+	"logoutUrl": null,
+	"name": "jamf-azure-ea-app",
+	"notes": null,
+	"oauth2AllowIdTokenImplicitFlow": false,
+	"oauth2AllowImplicitFlow": false,
+	"oauth2Permissions": [],
+	"oauth2RequirePostResponse": false,
+	"optionalClaims": null,
+	"orgRestrictions": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"endDate": "2024-01-06T16:45:48.975Z",
+			"keyId": "be651fc1-d023-44b8-9948-f05dcffd4e92",
+			"startDate": "2023-07-10T15:45:48.975Z",
+			"value": null,
+			"createdOn": "2023-07-10T15:46:12.9835532Z",
+			"hint": "z_M",
+			"displayName": "test"
+		}
+	],
+	"preAuthorizedApplications": [],
+	"publisherDomain": "RGA.onmicrosoft.com",
+	"replyUrlsWithType": [],
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				},
+				{
+					"id": "5b567255-7703-4780-807c-7be8301ae99b",
+					"type": "Role"
+				},
+				{
+					"id": "df021288-bdef-4463-88db-98f22de89214",
+					"type": "Role"
+				}
+			]
+		}
+	],
+	"samlMetadataUrl": null,
+	"signInUrl": null,
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null
+}
